@@ -10,7 +10,7 @@ find -type f | xargs file | grep text -#find files that have human readable text
 
 find . -type f -readable -size 1033c ! -executable  -#find file that has properties: human-readable, 1033 bytes, non-executable
 
-find / -user bandit7 -group bandit6 -size 33c   -#find file that has properties: human-readable, 1033 bytes, non-executable
+find / -user bandit7 -group bandit6 -size 33c   -#find file that has properties: user owned bandit7, group owned bandit6, size 33c
 
 grep millionth data.txt  -#search String in file data.txt
 
