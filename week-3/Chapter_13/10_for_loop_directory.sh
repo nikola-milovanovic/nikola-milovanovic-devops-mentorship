@@ -10,3 +10,4 @@ do
     then
         echo "$file is a file"
     fi
+done

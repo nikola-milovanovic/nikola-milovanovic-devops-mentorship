@@ -4,7 +4,7 @@
 IFS.OLD=$IFS
 IFS=$'\n'
 
-for entry in $(cat /home/centos/week-3)
+for entry in $(cat /etc/passwd)
 do
     echo "Values in $entry –"
     IFS=:
