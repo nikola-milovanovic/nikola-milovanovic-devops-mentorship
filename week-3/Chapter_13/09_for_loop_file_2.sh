@@ -1,11 +1,11 @@
 #!/bin/bash
 #Read values from file change field separator
 
-file="states"
+file="states2"
 
 IFS=$'\n'
 
-for state in $(cat $states2)
+for state in $(cat $file)
 do
     echo "Visit beautiful $state"
 done
